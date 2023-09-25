@@ -710,6 +710,10 @@ body {
   margin-top: 1.25rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .block {
   display: block;
 }
@@ -720,6 +724,10 @@ body {
 
 .flex {
   display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
 }
 
 .hidden {
@@ -829,6 +837,18 @@ body {
   justify-content: space-between;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .self-end {
   align-self: flex-end;
 }
@@ -936,10 +956,6 @@ body {
   fill: currentColor;
 }
 
-.stroke-current {
-  stroke: currentColor;
-}
-
 .p-1 {
   padding: 0.25rem;
 }
@@ -950,6 +966,11 @@ body {
 
 .p-4 {
   padding: 1rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .px-4 {
@@ -990,6 +1011,11 @@ body {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .pb-16 {
@@ -1467,5 +1493,9 @@ body {
 
   .xl\:w-10\/12 {
     width: 83.333333%;
+  }
+
+  .xl\:items-stretch {
+    align-items: stretch;
   }
 }
